@@ -1,6 +1,5 @@
 public class Pedido
 {
-    public Cliente cliente;
     public Pizza[] pizza;
     public int id;
     public string extra;
