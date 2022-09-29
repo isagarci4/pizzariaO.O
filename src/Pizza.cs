@@ -2,7 +2,8 @@ public class Pizza
 {
     public string sabor;
     public string tamanho;
-    public double preco;
+    public double valor;
+    
 
     public bool saborObrigatorio (string sabor)
     {
@@ -11,5 +12,10 @@ public class Pizza
         }else{
             return true;
         }
+    }
+
+    public string ToString(){
+        string whiteSpace = "---------------------------------------------------------------";
+        return whiteSpace + "\nSabor: " + this.sabor + "\nPreço: " + this.valor + "\nTamanho: " + this.tamanho + "\n" + whiteSpace;
     }
 }
