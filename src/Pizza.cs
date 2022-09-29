@@ -2,7 +2,7 @@ public class Pizza
 {
     public string sabor;
     public string tamanho;
-    public int preco;
+    public double preco;
 
     public bool saborObrigatorio (string sabor)
     {
